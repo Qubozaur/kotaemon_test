@@ -6,7 +6,7 @@ set -eo pipefail
 if [ -z "$1" ]; then
     echo "Usage: $0 <pdfjs_version_dist>"
     exit 1
-fi
+fi 
 
 pdfjs_version_dist=$1
 
